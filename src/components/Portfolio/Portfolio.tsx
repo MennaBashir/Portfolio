@@ -3,6 +3,7 @@ import sirx from "./../../assets/sirx.png";
 import clinic from "./../../assets/clinic.png";
 import ecommerce from "./../../assets/ecommerce.png";
 import food from "./../../assets/food.png";
+import blog from "./../../assets/blog.png";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useRef } from "react";
 const Portfolio = () => {
@@ -38,6 +39,14 @@ const Portfolio = () => {
       description:
         "Build a food ordering website using React JS. In this React JS project created the Home page to display the menu and food items, then cart page and order page. Then made the Sign In / Sign Up pop up...",
       link: "https://food-delivery-menna.netlify.app/",
+    },
+    {
+      id: "p5",
+      imag: blog,
+      title: "Arab Accountant Blog",
+      description:
+        "Web application designed to share accounting knowledge, news, and articles for Arabic-speaking accountants and financial professionals... ",
+      link: "https://mennabashir.github.io/Arab_Accountant_Blog/",
     },
   ];
   const Project = ({ item }: any) => {
