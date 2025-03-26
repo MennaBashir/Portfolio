@@ -1,5 +1,4 @@
 import "./navbar.scss";
-import facebook from "/assets/facebook.png";
 import mentor from "/assets/images.png";
 import github from "/assets/github.png";
 import linkedin from "/assets/linkedin.png";

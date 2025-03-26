@@ -7,3 +7,5 @@ createRoot(document.getElementById("root")!).render(
     <App />
   </StrictMode>
 );
+// before any push on github you should run this command
+// npm run deploy
