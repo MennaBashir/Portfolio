@@ -1,0 +1,115 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  gap: 40px;
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+
+    h1 {
+      font-size: 62px;
+      line-height: 60px;
+    }
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 12px;
+      .item {
+        h2 {
+          font-size: 25px;
+          font-weight: 400;
+        }
+        span {
+          font-weight: 300;
+          margin-top: -3px;
+          display: block;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .containerForm {
+    flex: 1;
+    position: relative;
+    .phone {
+      position: absolute;
+      margin-right: auto;
+      margin-left: auto;
+      svg {
+        margin: auto;
+        max-width: 100%;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      z-index: 12 !important;
+      position: relative;
+      input,
+      textarea {
+        padding: 12px;
+        border-radius: 4px;
+        border: 1px solid white;
+        background-color: transparent;
+        outline: none;
+        caret-color: white;
+        color: whitesmoke;
+      }
+      textarea {
+        resize: none;
+      }
+      button {
+        padding: 12px;
+        cursor: pointer;
+        background-color: orange;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: all 0.3s;
+        &:hover {
+          background-color: rgba(255, 166, 0, 0.815);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 667px) {
+  .contact {
+    .textContainer {
+      gap: 15px;
+      h1 {
+        font-size: 48px;
+        line-height: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 567px) {
+  .contact {
+    flex-direction: column;
+    .containerForm {
+      width: 80%;
+    }
+    .textContainer {
+      flex: 0;
+      h1 {
+        font-size: 39px;
+        line-height: 37px;
+      }
+      .items {
+        flex-direction: row;
+        gap: 12px 20px;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
