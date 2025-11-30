@@ -50,16 +50,18 @@ export default function AboutSection() {
             </h3>
             <h4 className="work">
               <p> شركة ولادة حلم للإستشارات والأبحاث</p>
-
               <span>
                 Feb 2025 – Present | Full-time | Remote · Jeddah, Saudi Arabia
               </span>
             </h4>
             <div className="description">
               <p>
-                In this role, I am developing a robust web platform designed to
-                empower nonprofit organizations, enabling them to grow and
-                achieve their mission more effectively.
+                I am working on building a scalable and user-centric web
+                platform that empowers nonprofit organizations to enhance their
+                operations and achieve their mission more effectively. My role
+                involves transforming business requirements into high-quality
+                frontend features, improving usability, and ensuring smooth user
+                experiences.{" "}
               </p>
             </div>
           </div>
@@ -68,7 +70,24 @@ export default function AboutSection() {
               <span>
                 <span></span>
               </span>
-              Frontend Developer Intern
+              Frontend Intern
+            </h3>
+            <h4>
+              Huma-volve
+              <span>Jul 2025</span>
+            </h4>
+            <div className="description">
+              During my internship at Huma-volve, I contributed to developing
+              user-friendly web interfaces and collaborated with the design team
+              to enhance the overall user experience.
+            </div>
+          </div>
+          <div className="intern">
+            <h3>
+              <span>
+                <span></span>
+              </span>
+              Frontend Intern
             </h3>
             <h4>
               Information Technology International - ITI{" "}
@@ -92,7 +111,7 @@ export default function AboutSection() {
               <span>
                 <span></span>
               </span>
-              Frontend Developer Intern
+              Frontend Intern
             </h3>
             <h4>
               Mentoor.io
